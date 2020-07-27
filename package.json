@@ -1,0 +1,19 @@
+{
+    "name": "api",
+    "version": "1.0.0",
+    "description": "Api do projeto zero do bootcamp fullstack do infnet",
+    "main": "server.js",
+    "author": "Thais Viana",
+    "license": "ecl-2.0",
+    "scripts": {
+        "start": "node server",
+        "server": "nodemon server"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-validator": "^6.4.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}
