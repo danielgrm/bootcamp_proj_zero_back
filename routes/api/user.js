@@ -27,7 +27,7 @@ router.get('/', (req, res, next)=> {
 
 router.post('/',[], (req, res, next) => {
   try{
-    const usuario = {id: 0}
+    let usuario = { id: 0 }
     const { nome, email, senha, is_active, is_admin } = req.body
     usuario.nome = nome
     usuario.email = email
