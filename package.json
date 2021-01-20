@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "description": "Api do projeto zero do bootcamp fullstack do infnet",
     "main": "server.js",
-    "author": "Thais Viana",
+    "author": "DanielGRM",
     "license": "ecl-2.0",
     "scripts": {
         "start": "node server",
